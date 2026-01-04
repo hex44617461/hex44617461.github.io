@@ -1,27 +1,30 @@
 name: Build and Deploy
-
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'  # PR에서는 배포 안함
+    
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0     # 전체 히스토리 가져오기
 
-    - name: Setup Node.js ${{ matrix.node-version }}
+    - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: '20'
         cache: 'npm'
 
     - name: Install dependencies
@@ -30,10 +33,12 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: Deploy
+    - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./out
         cname: hex44617461.github.io
+        user: hex44617461
+        repo: hex44617461.github.io
+        commit_message: "Deploy: ${{ github.sha }}"
