@@ -1,12 +1,16 @@
-import React from 'react';
+'use client';
 
-export const Header: React.FC<{ title?: string }> = ({ title = "DH's Blog" }) => {
+import React from 'react';
+import Link from 'next/link';
+
+export const Header: React.FC<{ title?: string }> = () => {
   return (
-    <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
-      <div className="max-w-4xl mx-auto px-4 py-6">
-        <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
-        <p className="text-gray-600 mt-2">Records of work</p>
-      </div>
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
+      <Link href="/" className="block">
+        <div className="max-w-6xl mx-auto px-6 py-3 ml-64">
+          {/* Empty header - logo/branding in sidebar */}
+        </div>
+      </Link>
     </header>
   );
 };

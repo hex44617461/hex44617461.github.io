@@ -1,4 +1,3 @@
-import { Header } from '@/components/Header';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { getAllCategories } from '@/lib/posts';
@@ -14,10 +13,9 @@ export default function CategoriesPage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      <Header />
       <Navigation />
 
-      <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-8">
+      <main className="flex-1 ml-64 w-[calc(100%-256px)] max-w-6xl px-6 py-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-8">Categories</h1>
 
         {categories.length === 0 ? (

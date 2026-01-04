@@ -3,24 +3,249 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #0d6efd;
+  --border: #dee2e6;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: Menlo, Monaco, Courier New, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1e1e1e;
+    --foreground: #e0e0e0;
   }
 }
 
+/* Dark mode specific styles */
+html.dark {
+  --background: #1e1e1e;
+  --foreground: #e0e0e0;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+html.dark body {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+html.dark aside {
+  background-color: #2d2d2d;
+  border-color: #444;
+}
+
+html.dark header {
+  background-color: #2d2d2d;
+  border-color: #444;
+}
+
+html.dark main {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+html.dark article {
+  color: #e0e0e0;
+}
+
+html.dark a {
+  color: #7a9fb8;
+}
+
+html.dark a:hover {
+  color: #9bb5ca;
+}
+
+html.dark footer {
+  background-color: #2d2d2d;
+  border-color: #444;
+}
+
+html.dark .prose {
+  color: #e0e0e0;
+}
+
+html.dark .prose h1,
+html.dark .prose h2,
+html.dark .prose h3,
+html.dark .prose h4,
+html.dark .prose h5,
+html.dark .prose h6 {
+  color: #ffffff;
+}
+
+html.dark .prose code {
+  background-color: #333;
+  color: #ff6b6b;
+}
+
+html.dark .prose pre {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+html.dark .border-gray-200 {
+  border-color: #444;
+}
+
+html.dark .bg-gray-50 {
+  background-color: #333;
+}
+
+html.dark .bg-gray-100 {
+  background-color: #2d2d2d;
+}
+
+html.dark .text-gray-600 {
+  color: #b0b0b0;
+}
+
+html.dark .text-gray-700 {
+  color: #d0d0d0;
+}
+
+html.dark .text-gray-900 {
+  color: #ffffff;
+}
+
+html.dark .bg-blue-50 {
+  background-color: #2d3840;
+}
+
+html.dark .bg-blue-100 {
+  background-color: #384a58;
+}
+
+html.dark .text-blue-700 {
+  color: #7a9fb8;
+}
+
+html.dark button:hover,
+html.dark a:hover {
+  color: #93c5fd;
+}
+
+html,
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Markdown Prose Styles - Chirpy Theme */
+.prose {
+  @apply max-w-none text-gray-700;
+}
+
+.prose h1 {
+  @apply text-4xl font-bold mt-8 mb-4 text-gray-900 border-b border-gray-300 pb-3;
+}
+
+.prose h2 {
+  @apply text-3xl font-bold mt-6 mb-3 text-gray-800 border-b border-gray-200 pb-2;
+}
+
+.prose h3 {
+  @apply text-2xl font-bold mt-5 mb-2.5 text-gray-800;
+}
+
+.prose h4 {
+  @apply text-xl font-semibold mt-4 mb-2 text-gray-800;
+}
+
+.prose h5 {
+  @apply text-lg font-semibold mt-3 mb-2 text-gray-700;
+}
+
+.prose h6 {
+  @apply text-base font-semibold mt-3 mb-2 text-gray-600;
+}
+
+.prose p {
+  @apply my-3 text-gray-700 leading-8;
+}
+
+.prose ol,
+.prose ul {
+  @apply my-3 ml-6 text-gray-700;
+}
+
+.prose ol {
+  @apply list-decimal;
+}
+
+.prose ul {
+  @apply list-disc;
+}
+
+.prose li {
+  @apply my-1 text-gray-700;
+}
+
+.prose code {
+  @apply px-2.5 py-1 bg-gray-100 rounded text-sm font-mono text-red-600;
+}
+
+.prose pre {
+  @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto my-4 border border-gray-700;
+}
+
+.prose pre code {
+  @apply px-0 py-0 bg-transparent text-gray-100;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-blue-500 pl-4 italic my-4 text-gray-600 bg-blue-50 py-2 pr-4 rounded-r;
+}
+
+.prose a {
+  @apply text-blue-600 hover:text-blue-800 underline transition-colors;
+}
+
+.prose table {
+  @apply w-full border-collapse my-4;
+}
+
+.prose table th {
+  @apply border border-gray-300 px-4 py-2 bg-gray-100 font-bold text-gray-900;
+}
+
+.prose table td {
+  @apply border border-gray-300 px-4 py-2 text-gray-700;
+}
+
+.prose hr {
+  @apply my-6 border-t border-gray-300;
+}
+
+/* Link Underline */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+
