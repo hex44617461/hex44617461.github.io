@@ -1,0 +1,177 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"default"]
+3:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"default"]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"ViewportBoundary"]
+a:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"MetadataBoundary"]
+c:I[68027,[],"default"]
+:HL["/_next/static/chunks/eec0b7965f231c88.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css","style"]
+0:{"P":null,"b":"qBoNKZGPMJ3OpJjhGW74w","c":["","posts","0-gitblog-build",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["id","0-gitblog-build","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/eec0b7965f231c88.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"}]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/76e4d0a68459ac84.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L8",null,{"children":"$L9"}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lb"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[72776,["/_next/static/chunks/76e4d0a68459ac84.js"],"Navigation"]
+e:I[55132,["/_next/static/chunks/76e4d0a68459ac84.js"],"TableOfContents"]
+f:I[22016,["/_next/static/chunks/76e4d0a68459ac84.js"],""]
+10:Tcdb,<h1 id="nextjs-github-pages">Next.js로 GitHub Pages 블로그 만들기</h1>
+<p>이 블로그는 Next.js와 GitHub Pages를 사용하여 구축했습니다. 마크다운 파일로 포스트를 관리하고, 자동으로 정적 HTML로 빌드됩니다.</p>
+<h2 id="heading">주요 기능</h2>
+<h3 id="heading-1">📝 마크다운 기반 포스트 관리</h3>
+<ul>
+<li><code>_posts</code> 폴더에 <code>.md</code> 파일을 추가하기만 하면 자동으로 블로그에 표시됩니다.</li>
+<li>Front matter를 사용하여 제목, 날짜, 카테고리, 태그를 관리합니다.</li>
+</ul>
+<h3 id="heading-2">🏷️ 카테고리 및 태그 시스템</h3>
+<ul>
+<li>포스트를 카테고리별로 분류할 수 있습니다.</li>
+<li>태그를 통해 관련 포스트를 쉽게 찾을 수 있습니다.</li>
+</ul>
+<h3 id="heading-3">📸 이미지 자산 관리</h3>
+<ul>
+<li><code>_assets/images</code> 폴더에 이미지를 저장하고 마크다운에서 참조할 수 있습니다.</li>
+<li>이미지 최적화를 통해 빠른 로딩 속도를 제공합니다.</li>
+</ul>
+<h3 id="heading-4">🔍 검색 및 필터링</h3>
+<ul>
+<li>카테고리별로 포스트를 검색할 수 있습니다.</li>
+<li>태그별로 관련 포스트를 필터링할 수 있습니다.</li>
+<li>연도별로 포스트를 아카이빙합니다.</li>
+</ul>
+<h2 id="heading-5">프로젝트 구조</h2>
+<pre><code>hex44617461.github.io/
+├── _posts/              # 마크다운 포스트
+│   └── *.md
+├── _assets/
+│   └── images/          # 이미지 자산
+├── app/                 # Next.js App Router
+│   ├── page.tsx         # 홈페이지
+│   ├── posts/[id]/      # 포스트 상세 페이지
+│   ├── categories/      # 카테고리 페이지
+│   ├── tags/            # 태그 페이지
+│   ├── archives/        # 아카이브 페이지
+│   └── about/           # 소개 페이지
+├── components/          # React 컴포넌트
+├── lib/                 # 유틸리티 함수
+└── next.config.js       # Next.js 설정
+</code></pre>
+<h2 id="heading-6">포스트 작성 방법</h2>
+<p><code>_posts</code> 폴더에 다음과 같은 형식의 마크다운 파일을 생성합니다:</p>
+<pre><code class="language-markdown">---
+title: "포스트 제목"
+date: 2024-08-20
+categories: ["카테고리1", "카테고리2"]
+tags: ["태그1", "태그2"]
+excerpt: "포스트 요약"
+---
+
+# 포스트 내용
+
+마크다운 형식으로 포스트를 작성합니다.
+</code></pre>
+<h2 id="heading-7">배포 방법</h2>
+<h3 id="github-pages">GitHub Pages로 배포</h3>
+<ol>
+<li>GitHub 저장소 설정에서 Pages 섹션에서 배포 브랜치 선택</li>
+<li><code>npm run build</code> 실행하여 정적 파일 생성</li>
+<li>Git에 커밋 및 푸시</li>
+</ol>
+<h3>자동 배포 (GitHub Actions)</h3>
+<p>GitHub Actions를 설정하면 푸시할 때마다 자동으로 빌드 및 배포됩니다.</p>
+<h2 id="heading-8">기술 스택</h2>
+<ul>
+<li><strong>Framework</strong>: Next.js (React)</li>
+<li><strong>Styling</strong>: Tailwind CSS</li>
+<li><strong>Content</strong>: Markdown (gray-matter, remark)</li>
+<li><strong>Hosting</strong>: GitHub Pages</li>
+<li><strong>Language</strong>: TypeScript</li>
+</ul>
+4:["$","div",null,{"className":"flex flex-col min-h-screen bg-white","children":[["$","$Ld",null,{}],["$","main",null,{"className":"flex-1 ml-64 w-[calc(100%-256px)] px-6 py-8","children":["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-6xl mx-auto","children":[["$","div",null,{"className":"lg:col-span-3 relative","children":[["$","$Le",null,{"headings":[{"id":"nextjs-github-pages","text":"Next.js로 GitHub Pages 블로그 만들기","level":1},{"id":"heading","text":"주요 기능","level":2},{"id":"heading-1","text":"📝 마크다운 기반 포스트 관리","level":3},{"id":"heading-2","text":"🏷️ 카테고리 및 태그 시스템","level":3},{"id":"heading-3","text":"📸 이미지 자산 관리","level":3},{"id":"heading-4","text":"🔍 검색 및 필터링","level":3},{"id":"heading-5","text":"프로젝트 구조","level":2},{"id":"heading-6","text":"포스트 작성 방법","level":2},{"id":"heading-7","text":"배포 방법","level":2},{"id":"github-pages","text":"GitHub Pages로 배포","level":3},{"id":"github-actions","text":"자동 배포 (GitHub Actions)","level":3},{"id":"heading-8","text":"기술 스택","level":2}]}],["$","article",null,{"className":"prose prose-sm md:prose max-w-none","children":[["$","div",null,{"className":"mb-6 pb-6 border-b border-gray-200","children":[["$","h1",null,{"className":"text-4xl font-bold text-gray-900 mb-4 border-b pb-3","children":"Next.js로 GitHub Pages 블로그 만들기"}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 text-xs text-gray-600 mb-6","children":[["$","div",null,{"className":"flex items-center gap-1","children":[["$","span",null,{"className":"font-semibold","children":"Posted"}],["$","time",null,{"dateTime":"2026-01-04","children":"2026-01-04"}]]}],["$","div",null,{"className":"flex items-center gap-1","children":[["$","span",null,{"className":"font-semibold","children":"Updated"}],["$","time",null,{"dateTime":"2026-01-04","children":"2026-01-04"}]]}],["$","div",null,{"className":"flex items-center gap-1","children":["$","span",null,{"className":"font-semibold","children":[2," min read"]}]}]]}],["$","div",null,{"className":"flex gap-2 mb-4","children":[["$","$Lf","Blog",{"href":"/categories/Blog","className":"px-3 py-1.5 bg-blue-100 text-blue-700 rounded text-xs font-medium hover:bg-blue-200 transition-colors","children":"Blog"}],["$","$Lf","",{"href":"/categories/","className":"px-3 py-1.5 bg-blue-100 text-blue-700 rounded text-xs font-medium hover:bg-blue-200 transition-colors","children":""}]]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","$Lf","Next.js",{"href":"/tags/Next.js","className":"text-xs text-gray-600 hover:text-blue-600 transition-colors bg-gray-100 px-2.5 py-1 rounded","children":["#","Next.js"]}],["$","$Lf","GitHub Pages",{"href":"/tags/GitHub%20Pages","className":"text-xs text-gray-600 hover:text-blue-600 transition-colors bg-gray-100 px-2.5 py-1 rounded","children":["#","GitHub Pages"]}],["$","$Lf","Markdown",{"href":"/tags/Markdown","className":"text-xs text-gray-600 hover:text-blue-600 transition-colors bg-gray-100 px-2.5 py-1 rounded","children":["#","Markdown"]}]]}]]}],["$","div",null,{"className":"prose prose-sm md:prose max-w-none dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$10"}}]]}],"$L11"]}],"$L12"]}]}],"$L13"]}]
+14:I[26696,["/_next/static/chunks/76e4d0a68459ac84.js"],"PostSidebar"]
+11:["$","div",null,{"className":"mt-12 pt-8 border-t border-gray-200","children":["$","$Lf",null,{"href":"/","className":"text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium","children":"← Back to posts"}]}]
+15:Ta83,
+# Next.js로 GitHub Pages 블로그 만들기
+
+이 블로그는 Next.js와 GitHub Pages를 사용하여 구축했습니다. 마크다운 파일로 포스트를 관리하고, 자동으로 정적 HTML로 빌드됩니다.
+
+## 주요 기능
+
+### 📝 마크다운 기반 포스트 관리
+- `_posts` 폴더에 `.md` 파일을 추가하기만 하면 자동으로 블로그에 표시됩니다.
+- Front matter를 사용하여 제목, 날짜, 카테고리, 태그를 관리합니다.
+
+### 🏷️ 카테고리 및 태그 시스템
+- 포스트를 카테고리별로 분류할 수 있습니다.
+- 태그를 통해 관련 포스트를 쉽게 찾을 수 있습니다.
+
+### 📸 이미지 자산 관리
+- `_assets/images` 폴더에 이미지를 저장하고 마크다운에서 참조할 수 있습니다.
+- 이미지 최적화를 통해 빠른 로딩 속도를 제공합니다.
+
+### 🔍 검색 및 필터링
+- 카테고리별로 포스트를 검색할 수 있습니다.
+- 태그별로 관련 포스트를 필터링할 수 있습니다.
+- 연도별로 포스트를 아카이빙합니다.
+
+## 프로젝트 구조
+
+```
+hex44617461.github.io/
+├── _posts/              # 마크다운 포스트
+│   └── *.md
+├── _assets/
+│   └── images/          # 이미지 자산
+├── app/                 # Next.js App Router
+│   ├── page.tsx         # 홈페이지
+│   ├── posts/[id]/      # 포스트 상세 페이지
+│   ├── categories/      # 카테고리 페이지
+│   ├── tags/            # 태그 페이지
+│   ├── archives/        # 아카이브 페이지
+│   └── about/           # 소개 페이지
+├── components/          # React 컴포넌트
+├── lib/                 # 유틸리티 함수
+└── next.config.js       # Next.js 설정
+```
+
+## 포스트 작성 방법
+
+`_posts` 폴더에 다음과 같은 형식의 마크다운 파일을 생성합니다:
+
+```markdown
+---
+title: "포스트 제목"
+date: 2024-08-20
+categories: ["카테고리1", "카테고리2"]
+tags: ["태그1", "태그2"]
+excerpt: "포스트 요약"
+---
+
+# 포스트 내용
+
+마크다운 형식으로 포스트를 작성합니다.
+```
+
+## 배포 방법
+
+### GitHub Pages로 배포
+
+1. GitHub 저장소 설정에서 Pages 섹션에서 배포 브랜치 선택
+2. `npm run build` 실행하여 정적 파일 생성
+3. Git에 커밋 및 푸시
+
+### 자동 배포 (GitHub Actions)
+
+GitHub Actions를 설정하면 푸시할 때마다 자동으로 빌드 및 배포됩니다.
+
+## 기술 스택
+
+- **Framework**: Next.js (React)
+- **Styling**: Tailwind CSS
+- **Content**: Markdown (gray-matter, remark)
+- **Hosting**: GitHub Pages
+- **Language**: TypeScript12:["$","$L14",null,{"recentPosts":[{"id":"0-gitblog-build","title":"Next.js로 GitHub Pages 블로그 만들기","date":"2026-01-04","content":"$15","htmlContent":"","categories":["Blog",""],"tags":["Next.js","GitHub Pages","Markdown"],"excerpt":"Next.js와 GitHub Pages를 이용하여 간단한 블로그를 만드는 방법을 소개합니다."}],"allTags":["GitHub Pages","Markdown","Next.js"],"headings":"$4:props:children:1:props:children:props:children:0:props:children:0:props:headings"}]
+13:["$","footer",null,{"className":"bg-white border-t border-gray-200 mt-12 ml-64","children":["$","div",null,{"className":"max-w-6xl px-6 py-6","children":["$","div",null,{"className":"flex flex-col items-center justify-center gap-3","children":[["$","p",null,{"className":"text-sm text-gray-600 text-center","children":"© 2026 hex44617461. All rights reserved."}],["$","p",null,{"className":"text-xs text-gray-500","children":"Made with Next.js and Tailwind CSS"}]]}]}]}]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"IconMark"]
+7:null
+b:[["$","title","0",{"children":"Next.js로 GitHub Pages 블로그 만들기"}],["$","meta","1",{"name":"description","content":"Next.js와 GitHub Pages를 이용하여 간단한 블로그를 만드는 방법을 소개합니다."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]
