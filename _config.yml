@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: hex44617461 # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: About Data Science # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   About Data Science
