@@ -1,19 +1,36 @@
-## [0.2.0] - 2026-07-05
-
-### add
-
-- Dokerfile
-- docker-compose.yml
-- .dockerignore
-
-## [0.1.1] - 2026-07-04
-
-### add
-
-- CHANGELOG.md
-
-## [0.1.0] - 2026-07-04
+## [0.3.0] - 2026-07-05
+- 프로필 이미지 교체
 
 ### Chore
 
-- jekyll template fork
+- 프로필 로고 이미지 설정 (`_config.yml`)
+
+### Added
+
+- 프로필 로고 이미지 파일 추가 (`assets/img/logo/logo.png`)
+
+## [0.2.0] - 2026-07-05
+
+- 도커 환경 구축
+
+### Added
+
+- 도커 파일 추가 (`Dockerfile`)
+- 도커 컴포즈 파일 추가 (`docker-compose.yml`)
+- 도커 이그노어 파일 추가 (`.dockerignore 추가`)
+
+## [0.1.1] - 2026-07-04
+
+- CHANGELOG 문서화 시작
+
+### Added
+
+- 체인지로그 파일 추가 (`CHANGELOG.md`)
+
+## [0.1.0] - 2026-07-04
+
+- 초기 프로젝트 구조 설정
+
+### Chore
+
+- Jekyll 템플릿 프로젝트 포크 및 초기화
