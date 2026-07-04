@@ -1,4 +1,20 @@
+## [0.3.1] - 2026-07-05
+
+- 파비콘 이미지 교체
+
+### Style
+
+- 파비콘 이미지 교체 (`assets/img/favicons/)
+    - android-chrome-192x192
+    - android-chrome-512x512
+    - apple-touch-icon
+    - favicon-16x16
+    - favicon-32x32
+    - favicon
+    - mstile-150x150
+
 ## [0.3.0] - 2026-07-05
+
 - 프로필 이미지 교체
 
 ### Chore
