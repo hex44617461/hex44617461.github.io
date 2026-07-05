@@ -1,3 +1,18 @@
+## [0.3.10] - 2026-07-05
+
+- 배포 테스트
+
+### fix
+
+- config 수정
+    -  `config.yml`
+
+### Chore
+
+- gitignore 설정
+    - `.gitignore`
+
+
 ## [0.3.9] - 2026-07-05
 
 - 기본 url 설정

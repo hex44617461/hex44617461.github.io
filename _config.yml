@@ -33,7 +33,8 @@ social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: hex44617461 # change to your full name
   email: hex44617461@gmail.com # change to your email address
-  links: https://github.com/hex44617461
+  links: 
+    - https://github.com/hex44617461
 
 # Site Verification Settings
 webmaster_verifications:
