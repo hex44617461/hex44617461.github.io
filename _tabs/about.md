@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<img src="https://hex44617461.github.io/assets/logo/logo.png" style="width: 240px;" alt="img">
+<img src="{{ site.baseurl }}/assets/img/logo/logo.png" style="width: 240px;" alt="img">
 
 <br>
 
