@@ -1,10 +1,18 @@
+## [0.3.2] - 2026-07-05
+
+- 한 줄 소개 변경
+
+### Style
+
+- 한 줄 소개 교체 (`_config.yml`)
+
 ## [0.3.1] - 2026-07-05
 
 - 파비콘 이미지 교체
 
 ### Style
 
-- 파비콘 이미지 교체 (`assets/img/favicons/)
+- 파비콘 이미지 교체 (`assets/img/favicons/`)
     - android-chrome-192x192
     - android-chrome-512x512
     - apple-touch-icon
